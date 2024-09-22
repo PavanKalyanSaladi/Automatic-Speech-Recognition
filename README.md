@@ -11,5 +11,7 @@ Clone the git repository--  <br/>
 ```git clone https://github.com/PavanKalyanSaladi/Automatic-Speech-Recognition.git```
 
 Build the docker image by running the below command--  <br/>
-```cd Automatic-Speech-Recognition <br/>
-  docker build . -t asr:v5.0```
+```
+cd Automatic-Speech-Recognition
+docker build . -t asr:v5.0
+```
