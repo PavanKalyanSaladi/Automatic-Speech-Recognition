@@ -23,13 +23,13 @@ Run the docker image by running in the port 8000--  <br/>
 docker run -d --name asr_hindi -p 8000:8000 asr:v5.0
 ```
 
-Now you can access it in your host machine--    <br/>
-```
-localhost:8000
-```
-
 ---
 Instead you can directly pull the public image that I created in my docker hub--  <br/>
 ```
 docker run -d --name asr_hindi -p 8000:8000 pavankalyan2001/asr:latest
+```
+
+Now you can access it in your host machine--    <br/>
+```
+http://localhost:8000
 ```
